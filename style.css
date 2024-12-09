@@ -1,0 +1,60 @@
+h1{
+  color: rgb(65, 95, 151);
+  font-weight: bolder;
+}
+h3 {
+  color: coral;
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+p {
+  color: rgb(173, 124, 173)
+}
+a {
+  color:rgb(83, 120, 92);
+  text-decoration: none;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover {
+  color: darkmagenta;
+  font-size: 20px;
+}
+body {
+  background-color: rgb(221, 214, 205);
+}
+.container {
+  text-align:center;
+  box-shadow: 5px 5px 7px grey;
+  width: 50%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.card {
+  text-align: center;
+  box-shadow: 5px 5px 7px grey;
+  width: 50%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.button {
+  background-color: rgb(161, 108, 220);
+  color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 5px;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+}
+@media (max-width: 700px) {
+  /* For a screen < 700px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
