@@ -1,5 +1,5 @@
 .banner{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/girl_comp.png);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("/images/girl_comp.png");
   background-size:cover;
   background-position: top;
   display: flex;
@@ -20,4 +20,3 @@
   text-shadow: -4px 4px #a9c5ba;
   text-align: center;
 }
-
