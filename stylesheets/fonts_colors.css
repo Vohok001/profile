@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+body{
+  background-color: white;
+  font-family: "Anonymous Pro", serif;
+  color: rgb(173, 124, 173);
+  font-size: 2vw;
+  width: 100%;
+  height: 100%;
+  max-width: 1430px;
+}
+h1{
+  color:white;
+  font-weight: bolder;
+  font-family:"Cinzel Decorative", serif;
+  font-size: 8vw;
+}
+h2{
+  font-family: "Anonymous Pro", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  font-size: 4vw;
+  text-align: center;
+  text-shadow: -4px 4px #a9c5ba;
+  padding-bottom: 2vw;
+}
+h3{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  font-size: 3vw;
+}
+h4{
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than or equal to 768px (tablets and below) */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px (tablets or small desktops) */
+}
+
+@media (min-width: 1025px) {
+  /* Styles for screens larger than 1024px (desktops) */
+}
+
+/*colors */
+
+:root {
+  --coral: rgb(241, 156, 125);
+  --mint-green: rgb(145, 213, 191);
+  --purple: rgb(104, 10, 141);
+}

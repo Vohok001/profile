@@ -1,0 +1,55 @@
+<div class="projects2">
+ 
+  <!-- Project Thumbnails -->
+  <a href="#" data-bs-toggle="modal" data-bs-target="#projectModal">
+    <img src="images/VVhp.png" alt="Villanous Villas project">
+  </a>
+  <a href="#" data-bs-toggle="modal" data-bs-target="#projectModal">
+    <img src="images/VVhp.png" alt="Villanous Villas project">
+  </a>
+
+  <!-- Modal Structure -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModalLabel">Project Showcase</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Carousel -->
+          <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Image or Video Slides -->
+              <div class="carousel-item active">
+                <img src="images/project-image1.jpg" class="d-block w-100" alt="Project image">
+              </div>
+              <div class="carousel-item">
+                <video class="d-block w-100" controls>
+                  <source src="videos/project-video1.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img src="images/project-image2.jpg" class="d-block w-100" alt="Project image">
+              </div>
+              <!-- Add more slides as needed -->
+            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/girl_comp.png);
+  background-size:cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  color: white;
+
+}
+
+.heading{
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.heading h1, h3{
+  text-transform: none;
+  text-shadow: -4px 4px #a9c5ba;
+  text-align: center;
+}
+
