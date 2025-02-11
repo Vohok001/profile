@@ -1,5 +1,82 @@
 @import url('fonts_colors.css');
 @import url('banner.css');
 @import url('navbar.css');
-@import url('style.css');
+@import url('skills.css');
 @import url('projects.css');
+@import url('contact.css');
+
+/* dark mode */
+.dark-mode {
+  background: linear-gradient(to top, rgb(1, 1, 87), black);
+  color: pink;
+  h2{
+    color: white;
+  }
+  nav{
+    background: linear-gradient(to bottom, rgb(1, 1, 87), black);
+    border-bottom: 3px solid pink;
+    box-shadow: 0px 4px 10px pink;
+    z-index: 10;
+  }
+  .checkbtn{
+    color: pink;
+  }
+  @media (max-width: 768px) {
+    ul{
+      background: linear-gradient(to bottom, rgb(1, 1, 87), black);
+    }
+  }
+  ul li a {
+    color: pink;
+  }
+  button{
+    color: pink;
+  }
+  button:hover{
+    color: var(--mint-green);
+    font-size: 2rem;
+  }
+  .logo img {
+    filter: invert(1) brightness(1000%);
+
+  }
+  .project-img img{
+    border: 1px solid rgba(255, 192, 203, 0.68);
+    filter: drop-shadow(0px 0px 10px pink);
+    animation: neonGlow 1.5s infinite alternate;
+  }
+  .contact-links a{
+    text-shadow: -0.1vw 0.1vw pink;
+    filter: drop-shadow(0px 0px 10px pink);
+  }
+  .modal-body, .modal-header, .modal-footer{
+    background-color: black;
+    /* background: linear-gradient(to bottom, rgb(1, 1, 87), black); */
+    border: none;
+    box-shadow: 0px 4px 10px pink;
+  }
+  ul li a::before{
+    background-color: var(--mint-green);
+  }
+  .stack img{
+    filter: drop-shadow(0px 0px 10px pink);
+    animation: neonGlow 1.5s infinite alternate;
+    z-index: 1;
+  }
+  #boxing, .cont, .cont:focus {
+    color: pink;
+  }
+
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+button:hover{
+  color: coral;
+  font-size: 2rem;
+}

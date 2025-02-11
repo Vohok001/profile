@@ -1,5 +1,5 @@
 .banner{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("/images/girl_comp.png");
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../images/girl_comp.png");
   background-size:cover;
   display: flex;
   align-items: center;
@@ -16,6 +16,6 @@
 
 .heading h1, h3{
   text-transform: none;
-  text-shadow: -4px 4px #a9c5ba;
+  text-shadow: -0.3vw 0.3vw #a9c5ba;
   text-align: center;
 }

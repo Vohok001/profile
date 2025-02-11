@@ -10,6 +10,17 @@ body{
   height: 100%;
   max-width: 1430px;
 }
+html {
+  scroll-behavior: smooth;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1{
   color:white;
   font-weight: bolder;
@@ -23,7 +34,7 @@ h2{
   color: black;
   font-size: 4vw;
   text-align: center;
-  text-shadow: -4px 4px #a9c5ba;
+  text-shadow: -0.3vw 0.3vw #a9c5ba;
   padding-bottom: 2vw;
 }
 h3{

@@ -11,8 +11,8 @@ x#projects iframe {
 
 }
 .project-img img{
-  width: 22vw;
-  height: 14vw;
+  width: 26vw;
+  height: 17vw;
   margin: 2rem;
   border-radius: 2rem;
   box-shadow: 0 0 10px var(--purple);

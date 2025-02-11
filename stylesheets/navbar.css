@@ -1,6 +1,6 @@
 
 nav {
-  background: linear-gradient(to top, pink, white, var(--mint-green));
+  background: linear-gradient(to top, pink, var(--mint-green));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +94,7 @@ ul li a:hover::before {
 .logo:hover{
   -webkit-animation: spin 5s infinite;
    animation: spin 5s infinite;
-   filter: invert(29%) sepia(98%) saturate(428%) hue-rotate(243deg) brightness(95%) contrast(88%);
+   /* filter: invert(29%) sepia(98%) saturate(428%) hue-rotate(243deg) brightness(95%) contrast(88%); */
 }
 
 

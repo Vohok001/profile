@@ -3,6 +3,7 @@
     "1": {
       title: "Villanous Villas",
       description: "Villanous Villas is an Airbnb-inspired marketplace for villain lairs, offering uniquely themed hideouts for those with a taste for mischief. The platform blends playful humor with innovative design, transforming property rental into a memorable, immersive adventure. It’s the perfect solution for anyone looking to book a lair that truly stands out.",
+      website:"https://github.com/Vohok001/villanous_villas",
       images: [
         "images/villas/VVhp.png",
         "images/villas/VV1.png",
@@ -21,6 +22,7 @@
     "2": {
       title: "Quest Odyssey",
       description: "Quest Odyssey is a dynamic platform designed for Dungeons & Dragons enthusiasts to manage campaigns, schedule sessions, and track character stats effortlessly. The app features interactive availability scheduling and real-time chat, empowering teams to coordinate epic adventures. Its modern design and intuitive interface make quest planning a seamless experience.",
+      website:"https://quest-odyssey-roooliver-weaver-d02f7d91e6c9.herokuapp.com/",
       images: [
         "images/quest/QO1.png",
         "images/quest/QO2.png",
@@ -93,9 +95,10 @@
                   </button>
                 </div>
                 <p class="mt-3">${project.description}</p>
+                <a href="${project.website}" class="btn btn-secondary" >View Website</a>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
               </div>
             </div>
           </div>

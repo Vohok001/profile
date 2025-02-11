@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
     <script type="module" src="javascript/index.js"></script>
 
     <link rel="stylesheet" href="stylesheets/index.css">
@@ -22,14 +25,17 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <a href="#banner" class="logo">
-        <img src="images/KV_logo.png" alt="logo">
+      <a href="#banner" class="logo" >
+        <img src="images/KV_logo.png" alt="logo" data-bs-toggle="tooltip" data-bs-placement="left" title="Weeee!">
       </a>
       <ul>
         <li><a class="active" href="#profile">Profile</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <button id="darkModeToggle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click me!">
+          <i id="themeIcon" class="fa-solid fa-moon"></i>
+        </button>
       </ul>
     </nav>
 
@@ -59,28 +65,34 @@
 
       <div id="skills" class="stack">
         <h2>Skills</h2>
-        <div style="display: inline_block"><br>
-          <img align="center" alt="Ruby"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Ruby.svg">
-          <img align="center" alt="Rails"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Rails.svg">
-          <img align="center" alt="HTML"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-          <img align="center" alt="CSS"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-          <img align="center" alt="Bootstrap"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bootstrap.svg">
+        <div><br>
+          <img align="center" alt="Ruby" data-bs-toggle="tooltip" data-bs-placement="top" title="Ruby"src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Ruby.svg">
+          <img align="center" alt="Rails" data-bs-toggle="tooltip" data-bs-placement="top" title="Rails"src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Rails.svg">
+          <img align="center" alt="HTML" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML 5" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+          <img align="center" alt="CSS" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+          <img align="center" alt="Bootstrap" data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bootstrap.svg">
         </div>
-        <div style="display: inline_block"><br>
-          <img align="center" alt="Sass"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg">
-          <img align="center" alt="Js"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-          <img align="center" alt="Vuejs"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VueJS-Dark.svg">
-          <img align="center" alt="Postman"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman.svg">
-          <img align="center" alt="MySQL"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MySQL-Dark.svg">
+        <div><br>
+          <img align="center" alt="Sass" data-bs-toggle="tooltip" data-bs-placement="top" title="Sass" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg">
+          <img align="center" alt="Js" data-bs-toggle="tooltip" data-bs-placement="top" title="Javascript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+          <img align="center" alt="Vuejs" data-bs-toggle="tooltip" data-bs-placement="top" title="Vue.js" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VueJS-Dark.svg">
+          <img align="center" alt="Postman" data-bs-toggle="tooltip" data-bs-placement="top" title="Postman" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman.svg">
+          <img align="center" alt="MySQL" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQL" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MySQL-Dark.svg">
         </div>
-        <div style="display: inline_block"><br>
-          <img align="center" alt="PostgreSQL"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg">
-          <img align="center" alt="SQLite"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SQLite.svg">
-          <img align="center" alt="Git"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg">
-          <img align="center" alt="GitHub"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg">
-          <img align="center" alt="Figma"  src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
+        <div ><br>
+          <img align="center" alt="PostgreSQL" data-bs-toggle="tooltip" data-bs-placement="top" title="PostgreSQL" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg">
+          <img align="center" alt="SQLite" data-bs-toggle="tooltip" data-bs-placement="top" title="SQLite" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SQLite.svg">
+          <img align="center" alt="Git" data-bs-toggle="tooltip" data-bs-placement="top" title="Git" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg">
+          <img align="center" alt="GitHub" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg">
+          <img align="center" alt="Figma" data-bs-toggle="tooltip" data-bs-placement="top" title="Figma" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
         </div>
       </div>
+
+      <div class="board">
+        <p id="quote-text"></p>
+        <p id="quote-author"></p>
+      </div>
+
 
       <div id="projects" class="projects">
         <h2>Projects</h2>
@@ -92,12 +104,23 @@
           <a href="#" class="project-link" data-project-id="2">
             <img src="images/quest/QOhp.png" alt="Quest Odyssey project">
           </a>
-      </div>
+        </div>
 
-      <div id="modal-container"></div>
+        <div id="modal-container" class="modal-fade"></div>
 
-      <div id="contact" class="card-contact-me">
-        <h2>Contact Me!</h2>
+       </div>
+
+      <div id="contact" class="card-contact-me ">
+        <h2>Get in touch!</h2>
+
+        <div>
+          <form action="#" method="post">
+            <input type="text" class="cont" id="name" name="firstname" placeholder="Name" required> <br/>
+            <input type="text" id="email" class="cont" name="email" placeholder="Email" required><br/>
+            <textarea rows="5" cols="40" id="boxing"  class="cont" placeholder="Message"></textarea><br/>
+            <input type="submit" value="Send a message" id="submit_button">
+          </form>
+        </div>
 
         <div class="contact-links">
           <a href="mailto:khushbuvohora@gmail.com" ><i class="fa-solid fa-envelope"></i></a>
