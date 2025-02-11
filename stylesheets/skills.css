@@ -20,20 +20,27 @@
 }
 
 
+@media (max-width: 768px) {
+  .stack-rows{
+  display: flex;
+  }
+}
+
+
 .board {
 	font-family: "Dosis";
-	font-size: 2.2rem;
-	letter-spacing: .15em;
+	font-size: 2vw;
+	letter-spacing: 0.2vw;
 	text-transform: uppercase;
 	line-height: 1.5;
 	text-shadow: 1px 1px #666, 3px 3px #000;
 	width: 35vw;
 	height: auto;
-	padding: 20px;
+	padding: 3vw;
 	overflow: hidden;
 	color: #fff;
-	border: 10px solid #eee;
-	background: linear-gradient( #0e0e0e 65%, #030303 66%) top .03em center / 100% .30em repeat-y;
+	border: 1vw solid #eee;
+	background: linear-gradient( #0e0e0e 65%, #030303 66%) top .03em center / 100% 0.1vw repeat-y;
 }
 .board p{
   text-align: center;

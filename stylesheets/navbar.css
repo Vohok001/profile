@@ -1,6 +1,6 @@
 
 nav {
-  background: linear-gradient(to top, pink, var(--mint-green));
+  background: linear-gradient(to top, pink, white, var(--mint-green));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +76,7 @@ ul li a:hover::before {
   }
 
   ul li a {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   #check:checked ~ ul {

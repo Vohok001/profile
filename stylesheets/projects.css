@@ -1,27 +1,26 @@
-x#projects iframe {
-  width: 1500px;      /* Full width of the viewport */
-  height: 100vh;     /* Full height of the viewport */
-  border: none;      /* Optional: Remove border */
-}
+
  .projects {
   padding-top: 15vh;
   text-align: center;
-  height: 400px;
+  height: 100vh;
   margin: 200px;
-
+  width: 100vw;
 }
 .project-img img{
-  width: 26vw;
-  height: 17vw;
-  margin: 2rem;
-  border-radius: 2rem;
+  width: 30vw;
+  height: 20vw;
+  margin: 1.5rem;
+  border-radius: 1rem;
   box-shadow: 0 0 10px var(--purple);
 }
 .project-img img:hover{
-  width: 24vw;
-  height: 15.5vw;
+  width: 26vw;
+  height: 17vw;
 }
-
+.modal-title{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
 .modal-body{
   display: flex;
   justify-content: center;
@@ -35,3 +34,13 @@ x#projects iframe {
   .modal-body p{
     font-size: 1vw;
   }
+.modal-content a{
+  background-color: var(--purple);
+  color: white !important;
+  border: none;
+}
+.modal-content a:hover{
+  background-color: var(--coral);
+  color: white !important;
+  border: none;
+}
