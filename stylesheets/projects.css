@@ -14,8 +14,7 @@
   box-shadow: 0 0 10px var(--purple);
 }
 .project-img img:hover{
-  width: 26vw;
-  height: 17vw;
+  transform: scale(1.09);
 }
 .modal-title{
   font-weight: bolder;
@@ -27,13 +26,13 @@
   flex-direction: column;
   align-items: center;
   }
-  .carousel-item img{
-    width: 40vw;
-    height: 25vw;
-  }
-  .modal-body p{
-    font-size: 1vw;
-  }
+.carousel-item img{
+  width: 40vw;
+  height: 25vw;
+}
+.modal-body p{
+  font-size: 1vw;
+}
 .modal-content a{
   background-color: var(--purple);
   color: white !important;
@@ -43,4 +42,22 @@
   background-color: var(--coral);
   color: white !important;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .modal-body p{
+    font-size: 2vw;
+  }
+  .modal-content a{
+    width: 19vw;
+    font-size: 2vw;
+  }
+  .modal-content img{
+    width: 50vw;
+    height: 30vw;
+  }
+  .project-img img{
+    width: 45vw;
+    height: 30vw;
+  }
 }

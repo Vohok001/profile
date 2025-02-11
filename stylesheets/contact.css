@@ -15,12 +15,20 @@
   flex-direction: row;
   font-size: 3.5vw;
 }
+
 .contact-links a{
   color: var(--purple);
 }
 .contact-links a:hover{
   color: var(--coral);
   font-size: 4vw;
+}
+
+
+@media (max-width: 768px) {
+  .contact-links a{
+    font-size: 6vw;
+  }
 }
 
 /* contact-form styling */

@@ -24,6 +24,10 @@
   .stack-rows{
   display: flex;
   }
+  .stack img{
+    height: 15vw;
+    padding: 3vw;
+  }
 }
 
 
