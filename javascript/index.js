@@ -34,18 +34,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-//email with email js?
-document.getElementById("submit_button").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent form from refreshing the page
-
-  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-      from_name: document.getElementById("name").value,
-      from_email: document.getElementById("email").value,
-      message: document.getElementById("boxing").value
-  }).then(function(response) {
-      alert("Message sent successfully!");
-  }, function(error) {
-      alert("Error sending message. Please try again.");
-  });
-});
